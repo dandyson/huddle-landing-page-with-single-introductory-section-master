@@ -1,0 +1,144 @@
+
+/**MOBILE PHONE DESIGN**/
+
+/** General **/
+
+body {
+    background-color: #674BB1;
+    background-image: url('../images/bg-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+
+/** Nav **/
+
+.nav img {
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/** Mockup **/
+
+#mockupDiv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#mockupDiv img {
+    height: 190px;
+}
+
+/** Text Div **/
+
+#textDiv {
+    margin: 50px auto;
+    text-align: center;
+    width: 62%;
+}
+
+#textDiv h1 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+#textDiv p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+#textDiv button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    width: 200px;
+}
+
+/** Social Div **/
+#socialDiv {
+    text-align: center;
+}
+
+.socialImages {
+    margin: 5px;
+    height: 20px;
+}
+
+
+/* Footer */
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(229, 20%, 83%); 
+}
+
+/***********************************MEDIA QUERIES FOR DESKTOP*****************************************/
+
+@media (min-width: 1000px) {
+
+/** General **/
+
+    .mainContentGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    /** Nav **/
+
+    .nav img {
+        height: 40px;
+    }
+
+
+/** Mockup Image **/
+
+#mockupDiv img {
+    padding-left: 50px;
+    height: 400px;
+}
+
+/** Text Div **/
+
+#textDiv {
+    margin-top: 70px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+#textDiv h1 {
+    font-size: 1.8em;
+}
+
+#textDiv p {
+    font-size: 0.8em;
+}
+
+#textDiv button {
+    width: 140px;
+}
+
+
+/** Social Div **/
+#socialDiv {
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.socialImages {
+    margin: 5px;
+    height: 20px;
+}
+}
