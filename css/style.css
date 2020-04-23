@@ -12,7 +12,11 @@ body {
     color: white;
 }
 
-
+button {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.27);
+}
 
 /** Nav **/
 
@@ -86,13 +90,15 @@ body {
 
 /***********************************MEDIA QUERIES FOR DESKTOP*****************************************/
 
-@media (min-width: 1000px) {
+@media (min-width: 500px) {
 
 /** General **/
 
     .mainContentGrid {
         display: grid;
         grid-template-columns: 50% 50%;
+        margin-top: 50px;
+        padding-left: 50px;
     }
 
     /** Nav **/
